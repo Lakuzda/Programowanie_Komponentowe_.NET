@@ -56,5 +56,14 @@ namespace TestCompass
         {
             textBox3.Text = userControl11.Difference.ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            userControl11.BackColor = Color.FromName(comboBox4.SelectedItem.ToString());
+            userControl11.FontColor = Color.FromName(comboBox3.SelectedItem.ToString());
+            userControl11.KnobColor = Color.FromName(comboBox2.SelectedItem.ToString());
+            userControl11.PointColor = Color.FromName(comboBox1.SelectedItem.ToString());
+            userControl11.TextVisable = checkBox1.Checked;
+        }
     }
 }

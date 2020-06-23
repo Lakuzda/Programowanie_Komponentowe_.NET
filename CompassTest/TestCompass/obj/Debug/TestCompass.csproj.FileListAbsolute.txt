@@ -12,3 +12,17 @@ C:\Users\Norbert\source\repos\TestCompass\TestCompass\obj\Debug\TestCompass.cspr
 C:\Users\Norbert\source\repos\TestCompass\TestCompass\obj\Debug\TestCompass.csproj.CopyComplete
 C:\Users\Norbert\source\repos\TestCompass\TestCompass\obj\Debug\TestCompass.exe
 C:\Users\Norbert\source\repos\TestCompass\TestCompass\obj\Debug\TestCompass.pdb
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\bin\Debug\TestCompass.exe.config
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\bin\Debug\TestCompass.exe
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\bin\Debug\TestCompass.pdb
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\bin\Debug\Compass.dll
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\bin\Debug\KnobControl.dll
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\bin\Debug\Compass.pdb
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.csprojAssemblyReference.cache
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.Form1.resources
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.Properties.Resources.resources
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.csproj.GenerateResource.cache
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.csproj.CoreCompileInputs.cache
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.csproj.CopyComplete
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.exe
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\CompassTest\TestCompass\obj\Debug\TestCompass.pdb

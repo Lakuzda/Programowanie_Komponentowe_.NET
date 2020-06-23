@@ -8,3 +8,12 @@ C:\Users\Norbert\source\repos\Compass\Compass\obj\Debug\Compass.csproj.CopyCompl
 C:\Users\Norbert\source\repos\Compass\Compass\obj\Debug\Compass.dll
 C:\Users\Norbert\source\repos\Compass\Compass\obj\Debug\Compass.pdb
 C:\Users\Norbert\source\repos\Compass\Compass\obj\Debug\Compass.UserControl1.resources
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\bin\Debug\Compass.dll
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\bin\Debug\Compass.pdb
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\obj\Debug\Compass.csprojAssemblyReference.cache
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\obj\Debug\Compass.UserControl1.resources
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\obj\Debug\Compass.csproj.GenerateResource.cache
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\obj\Debug\Compass.csproj.CoreCompileInputs.cache
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\obj\Debug\Compass.csproj.CopyComplete
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\obj\Debug\Compass.dll
+C:\Users\lakuz\Documents\Komponent\Programowanie_Komponentowe_.NET\Compass\Compass\obj\Debug\Compass.pdb

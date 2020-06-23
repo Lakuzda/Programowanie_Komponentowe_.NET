@@ -16,11 +16,19 @@ namespace Compass
         private int currentValue;
         private int expectedValue;
         private int differenceValue;
+        private Color pointColor;
+        private Color knobColor;
+        private bool textVisable;
+        private Color fontColor;
         public UserControl1()
         {
             InitializeComponent();
             currentValue = knobControl1.Value;
             expectedValue = 270;
+            textVisable = true;
+            fontColor = Color.Black;
+            knobColor = Color.Black;
+            pointColor = Color.Red;
         }
 
         /// <summary>
@@ -85,5 +93,85 @@ namespace Compass
             }
         }
 
+        /// <summary>
+        /// Color of font
+        /// </summary>
+        [Description("Set the color of the font")]
+        [Category("CompassSettings")]
+        public Color FontColor
+        {
+            get { return fontColor; }
+            set
+            {
+                fontColor = value;
+                label1.ForeColor = value;
+                label2.ForeColor = value;
+                label3.ForeColor = value;
+                label4.ForeColor = value;
+                Invalidate();
+            }
+        }
+
+        /// <summary>
+        /// Color of pointer
+        /// </summary>
+        [Description("Set the color of the pointer")]
+        [Category("CompassSettings")]
+        public Color PointColor
+        {
+            get { return pointColor; }
+            set
+            {
+                pointColor = value;
+                knobControl1.PointerColor = value;
+                Invalidate();
+            }
+        }
+
+        /// <summary>
+        /// Color of knob
+        /// </summary>
+        [Description("Set the color of the knob")]
+        [Category("CompassSettings")]
+        public Color KnobColor
+        {
+            get { return knobColor; }
+            set
+            {
+                knobColor = value;
+                knobControl1.KnobBackColor = value;
+                Invalidate();
+            }
+        }
+
+        /// <summary>
+        /// Setting text visable
+        /// </summary>
+        [Description("Set the text visable")]
+        [Category("CompassSettings")]
+        public bool TextVisable
+        {
+            get { return textVisable; }
+            set
+            {
+                textVisable = value;
+
+                if (textVisable)
+                {
+                    label1.Text = "N";
+                    label2.Text = "S";
+                    label3.Text = "E";
+                    label4.Text = "W";
+                }
+                else
+                {
+                    label1.Text = "";
+                    label2.Text = "";
+                    label3.Text = "";
+                    label4.Text = "";
+                }
+                Invalidate();
+            }
+        }
     }
 }

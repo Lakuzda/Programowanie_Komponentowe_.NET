@@ -64,6 +64,7 @@ namespace TestCompass
             userControl11.KnobColor = Color.FromName(comboBox2.SelectedItem.ToString());
             userControl11.PointColor = Color.FromName(comboBox1.SelectedItem.ToString());
             userControl11.TextVisable = checkBox1.Checked;
+            userControl11.NumberScale = checkBox2.Checked;
         }
     }
 }

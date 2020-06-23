@@ -20,6 +20,7 @@ namespace Compass
         private Color knobColor;
         private bool textVisable;
         private Color fontColor;
+        private bool numberScale;
         public UserControl1()
         {
             InitializeComponent();
@@ -171,6 +172,22 @@ namespace Compass
                     label4.Text = "";
                 }
                 Invalidate();
+            }
+        }
+
+        /// <summary>
+        /// Setting scale
+        /// </summary>
+        [Description("Set the number scale")]
+        [Category("CompassSettings")]
+        public bool NumberScale
+        {
+            get { return numberScale; }
+            set
+            {
+                numberScale = value;
+                knobControl1.ShowLargeScale = value;
+                knobControl1.ShowSmallScale = value;
             }
         }
     }

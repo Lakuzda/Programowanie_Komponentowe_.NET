@@ -36,7 +36,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.userControl11 = new Compass.UserControl1();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -49,6 +48,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.userControl11 = new Compass.UserControl1();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -127,20 +128,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // userControl11
-            // 
-            this.userControl11.BackColor = System.Drawing.SystemColors.Control;
-            this.userControl11.CurrentValue = 180;
-            this.userControl11.ExpectedValue = 270;
-            this.userControl11.FontColor = System.Drawing.Color.Black;
-            this.userControl11.KnobColor = System.Drawing.Color.Black;
-            this.userControl11.Location = new System.Drawing.Point(12, 12);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.PointColor = System.Drawing.Color.Red;
-            this.userControl11.Size = new System.Drawing.Size(196, 185);
-            this.userControl11.TabIndex = 0;
-            this.userControl11.TextVisable = true;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -168,7 +155,7 @@
             "GREEN",
             "BLUE",
             "WHITE"});
-            this.comboBox1.Location = new System.Drawing.Point(716, 40);
+            this.comboBox1.Location = new System.Drawing.Point(716, 18);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 11;
@@ -183,7 +170,7 @@
             "GREEN",
             "BLUE",
             "WHITE"});
-            this.comboBox2.Location = new System.Drawing.Point(716, 67);
+            this.comboBox2.Location = new System.Drawing.Point(716, 45);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 12;
@@ -198,7 +185,7 @@
             "GREEN",
             "BLUE",
             "WHITE"});
-            this.comboBox3.Location = new System.Drawing.Point(716, 94);
+            this.comboBox3.Location = new System.Drawing.Point(716, 72);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
             this.comboBox3.TabIndex = 13;
@@ -229,7 +216,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(626, 43);
+            this.label6.Location = new System.Drawing.Point(626, 21);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 13);
             this.label6.TabIndex = 16;
@@ -238,7 +225,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(626, 70);
+            this.label7.Location = new System.Drawing.Point(626, 48);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 13);
             this.label7.TabIndex = 17;
@@ -247,7 +234,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(626, 97);
+            this.label8.Location = new System.Drawing.Point(626, 75);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(83, 13);
             this.label8.TabIndex = 18;
@@ -263,7 +250,7 @@
             "BLUE",
             "WHITE",
             "CONTROL"});
-            this.comboBox4.Location = new System.Drawing.Point(716, 121);
+            this.comboBox4.Location = new System.Drawing.Point(716, 99);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 21);
             this.comboBox4.TabIndex = 19;
@@ -272,17 +259,43 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(627, 124);
+            this.label9.Location = new System.Drawing.Point(627, 102);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(47, 13);
             this.label9.TabIndex = 20;
             this.label9.Text = "Kolor tła";
+            // 
+            // userControl11
+            // 
+            this.userControl11.BackColor = System.Drawing.SystemColors.Control;
+            this.userControl11.CurrentValue = 180;
+            this.userControl11.ExpectedValue = 270;
+            this.userControl11.FontColor = System.Drawing.Color.Black;
+            this.userControl11.KnobColor = System.Drawing.Color.Black;
+            this.userControl11.Location = new System.Drawing.Point(12, 12);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.NumberScale = false;
+            this.userControl11.PointColor = System.Drawing.Color.Red;
+            this.userControl11.Size = new System.Drawing.Size(196, 185);
+            this.userControl11.TabIndex = 0;
+            this.userControl11.TextVisable = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(716, 132);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(128, 17);
+            this.checkBox2.TabIndex = 21;
+            this.checkBox2.Text = "Włącz/Wyłącz skalę";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 211);
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.label8);
@@ -334,6 +347,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 
